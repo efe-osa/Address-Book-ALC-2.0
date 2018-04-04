@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Address Book App</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" integrity="sha384-3AB7yXWz4OeoZcPbieVW64vVXEwADiYyAEhwilzWsLw+9FgqpyjjStpPnpBO8o8S"
+        crossorigin="anonymous">
+    <script src="js/main.js"></script>
+</head>
+
+<body>
+
+    <header>
+        <h2 class="addresstitle">
+            <i class="far fa-address-book"></i> Address Book</h2>
+    </header>
+
+    <div class="nav-list ">
+        <button onclick= "addcontactField()">Add/Edit Contact</button>
+        <div class="container-fluid mb-10 addcontactdiv">
+
+        </div>
+        <button onclick="searchField()"> Search</button>
+        <div class=" container-fluid searchdiv">
+            
+        </div>
+        <h6 class='searchoutput'></h6>
+    </div>
+        
+    
+    <div class="container-fluid panel ">
+       <h5 class="addresspanel text-center mt-2"><em></em></h5>
+        <div class="container-fluid mr-3 addressbook">
+
+        </div>
+    </div>
+
+</body>
+
+</html>

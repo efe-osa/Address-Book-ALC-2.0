@@ -1,0 +1,62 @@
+
+body{
+    background: rgb(197, 203, 221);
+}.addresstitle {
+    padding: 10px 5px 10px 0px;
+    margin: 10px 150px 20px 150px ;
+    max-width: 100%;
+    text-align: center;
+    color: rgb(252, 252, 252);
+    background-color:rgb(105, 88, 131); 
+    border-radius: 10px;
+    border-style: double; 
+    border-color: rgb(109, 91, 136);
+}
+.searchdiv {
+ margin-top:0px;
+}
+.nav-list > button {
+    width: 20%;
+    padding: 8px;
+    margin: 5px 10px 0px 0px;
+    margin-right:120% ;
+    border-style: solid;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: rgb(150, 172, 177); 
+    }
+.searchdiv{
+        background-color: rgba(232, 229, 245, 0.863);
+        text-align: left;
+        margin-top: 5px;
+        border-radius: 10px; 
+    }
+.addcontactdiv{
+        background-color: rgba(232, 229, 245, 0.863);
+        text-align: left;
+        width: 50%;
+        margin-top: 5px;
+        border-radius: 10px;
+    }
+.panel{
+    background-color: rgb(190, 204, 207); ;
+    max-width:50%;
+    margin-top: 5px;
+    box-sizing: content-box;
+    border-radius: 15px;
+}
+.addressbook{
+    background-color: rgba(245, 245, 245, 0.959);;
+    margin-top: 2px;
+    margin: 5% 50%;
+    text-align: right;
+}
+.infocolor {
+background-color: rgb(200, 177, 202);
+}
+.para{
+    border-bottom-style: solid ;
+    border-bottom-width: thin;
+    border-bottom-color: rgb(182, 178, 178);
+    padding: 5px;
+}
